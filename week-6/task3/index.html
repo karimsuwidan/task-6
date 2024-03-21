@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Task3 - Tailwind</title>
+</head>
+<body class="flex justify-center items-center mt-10">
+    <div class="container w-3/5 ">
+        <header class="flex justify-between items-center">
+            <img src="logo (2).svg" alt="">
+
+            <img class="md:hidden" src="icon-menu.svg" alt="">
+            <ul class="md:flex gap-3  hidden">
+                <li class="hover:text-red-500"><a href="#">Home</a></li>
+                <li class="hover:text-red-500"><a href="#">New</a></li>
+                <li class="hover:text-red-500"><a href="#">Popular</a></li>
+                <li class="hover:text-red-500"><a href="#">trending</a></li>
+                <li class="hover:text-red-500"><a href="#">Categories</a></li>
+            </ul>
+        </header>
+        <main class="mt-10 grid lg:grid-cols-3 grid-cols-1 gap-4 ">
+            <div class="left lg:col-start-1 lg:col-end-3  ">
+                <img class="md:block hidden" src="image-web-3-desktop.jpg "  alt="">
+                <img class="md:hidden" src="image-web-3-mobile.jpg" alt="">
+                <div class="box mt-4 grid lg:grid-cols-2 grid-cols-1 gap-5">
+                    <p class=" text-5xl font-bold ">The Bright Future Of Web 3.0?</p>
+                    <div class="content ">
+                        <p class="text-gray-400">Lorem ipsum dolor sit Dignissimos, itaque ratione dolorum, non assumenda doloremque quis nihil recusandae ex expedita explicabo laboriosam. Ab in non quos, iure ipsum recusandae sed!</p>
+                        <div class="btn py-2 px-4 bg-red-300 inline-block text-white mt-4"><button>READ MORE</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="right px-5 basis-full bg-cyan-950">
+                <h2 class="text-orange-500 mt-6 text-3xl font-bold">New</h2>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 pb-6 mt-3 border-b border-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 mt-3 pb-6 border-b border-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="grid lg:grid-cols-3 grid-cols-1 mt-8 gap-3">
+            <div class="box gap-3 flex lg:justify-between ">
+                <img class="w-24 h-24 " src="image-retro-pcs.jpg"  alt="">
+                <div class="content">
+                    <span class="text-gray-400">01</span>
+                    <h2 class="text-black font-bold">Revivng Retro PCs</h2>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box gap-3 flex lg:justify-between ">
+                <img class="w-24 h-24 " src="image-gaming-growth.jpg"  alt="">
+                <div class="content">
+                    <span class="text-gray-400">01</span>
+                    <h2 class="text-black font-bold">Revivng Retro PCs</h2>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box gap-3 flex lg:justify-between">
+                <img class="w-24 h-24 " src="image-top-laptops.jpg"  alt="">
+                <div class="content">
+                    <span class="text-gray-400">01</span>
+                    <h2 class="text-black font-bold">Revivng Retro PCs</h2>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+
+</html>
+
+<!-- 
+<main class="mt-10 flex gap-4 ">
+            <div class="left ">
+                <img src="image-web-3-desktop.jpg "  alt="">
+                <div class="box mt-4 flex gap-5">
+                    <p class=" text-4xl font-bold basis-2/5">The Bright Future Of Web 3.0?</p>
+                    <div class="content basis-3/5">
+                        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, itaque ratione dolorum, non assumenda doloremque quis nihil recusandae ex expedita explicabo laboriosam. Ab in non quos, iure ipsum recusandae sed!</p>
+                        <div class="btn py-2 px-4 bg-red-300 inline-block text-white mt-4"><button>READ MORE</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="right px-5 basis-full bg-cyan-950">
+                <h2 class="text-orange-500 mt-6 text-3xl font-bold">New</h2>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 pb-6 mt-3 border-b border-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 mt-3 pb-6 border-b border-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box">
+                    <h3 class="text-white mt-3">Hydrogin VS Electric Cars</h3>
+                    <p class="text-gray-400 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="flex items-center justify-between mt-8">
+            <div class="box gap-3 flex  justify-between ">
+                <img class="w-24 h-24" src="image-retro-pcs.jpg"  alt="">
+                <div class="content">
+                    <span>01</span>
+                    <h2>Revivng Retro PCs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sed.</p>
+                </div>
+            </div>
+            <div class="box flex gap-3  justify-between ">
+                <img class="w-24 h-24" src="image-retro-pcs.jpg"  alt="">
+                <div class="content">
+                    <span>01</span>
+                    <h2>Revivng Retro PCs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sed.</p>
+                </div>
+            </div>
+            <div class="box flex gap-3  justify-between ">
+                <img class="w-24 h-24" src="image-retro-pcs.jpg"  alt="">
+                <div class="content">
+                    <span>01</span>
+                    <h2>Revivng Retro PCs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sed.</p>
+                </div>
+            </div>
+        </footer>
+
+ -->

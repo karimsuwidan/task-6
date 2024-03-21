@@ -1,0 +1,27 @@
+/* *{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+background-color: gray;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 50%; 
+    border-radius: 10px;
+
+
+} */
+:root{ 
+Cyan: hsl(179, 62%, 43%);
+Bright-Yellow: hsl(71, 73%, 54%);
+
+Light-Gray: hsl(204, 43%, 93%);
+Grayish-Blue: hsl(218, 22%, 67%);
+}

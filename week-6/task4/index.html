@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Task4 - Tailwind</title>
+</head>
+<body >
+    <div class="container my-10 lg:px-28  ">
+        <header class=" text-gray-400 flex justify-between items-center mx-5">
+            <div class="lef flex gap-20 items-start justify-between">
+                <img src="logo (3).svg" alt="">
+                <ul class="lg:flex gap-8 items-start justify-center hidden">
+                    <li class="flex gap-2 justify-center items-center"><a href="#">Features</a> <img class="mt-1" src="icon-arrow-down.svg" alt=""> </li>
+                    <li class="flex gap-2 justify-center items-center"><a href="#">company</a> <img class="mt-1" src="icon-arrow-down.svg" alt=""> </li>
+                    <li><a href="#">carrers</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <img class="lg:hidden block  " src="icon-menu.svg" alt="">
+
+            <div class="righ lg:flex gap-8 items-center justify-center hidden ">
+                <button>login</button>
+                <div class="px-5 py-3 border-gray-400 border-2 rounded-2xl"><button>Register</button></div>
+            </div>
+        </header>
+        <main class="flex center lg:text-start  text-center lg:flex-row flex-col justify-between mt-6 lg:gap-20 lg:ml-40 lg:mr-28  ">
+            <img  class="lg:hidden block mt-16" src="image-hero-mobile.png" alt="">
+
+            <div>
+                <h1 class="font-bold lg:text-5xl lg:mt-24 lg:mb-12 mt-10 mb-6 text-3xl "> <span class="lg:block inline-block">Make</span>  remote work </h1>
+                <p class="text-gray-400 lg:w-72  mb-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus incidunt repellat nemo. Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="px-5 py-3 text-white mb-12 bg-black rounded-xl inline-block font-bold"><button>Learn More</button></div>
+                <div class="flex gap-2 justify-center">
+                    <img src="client-databiz.svg" alt="">
+                    <img src="client-audiophile.svg" alt="">
+                    <img src="client-meet.svg" alt="">
+                    <img src="client-maker.svg" alt="">
+                </div>
+            </div>
+            <img class="max-w-96 lg:block hidden" src="image-hero-desktop.png" alt="">
+        </main>
+    </div>
+</body>
+</html>
